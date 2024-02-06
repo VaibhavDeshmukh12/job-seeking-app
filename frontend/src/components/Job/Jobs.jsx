@@ -10,7 +10,7 @@ const Jobs = () => {
   const navigateTo=useNavigate();
   useEffect(()=>{
     try{
-      axios.get("http://localhost:4000/api/v1/job/getAllJob", {
+      axios.get("https://jobseekingapplication.onrender.com/api/v1/job/getAllJob", {
         withCredentials: true,
       }).then((res)=>{
         setJobs(res.data)

@@ -25,14 +25,14 @@ const MyApplications = () => {
     const fetchData = async () => {
       try {
         if (user && user.role === "Employee") {
-          await axios.get("http://localhost:4000/api/v1/application/employee/getAll", {
+          await axios.get("https://jobseekingapplication.onrender.com/api/v1/application/employee/getAll", {
               withCredentials: true,
             })
             .then((res) => {
               setApplications(res.data.application);
             });
         } else {
-          await axios.get("http://localhost:4000/api/v1/application/jobSeeker/getAll", {
+          await axios.get("https://jobseekingapplication.onrender.com/api/v1/application/jobSeeker/getAll", {
               withCredentials: true,
             })
             .then((res) => {
@@ -50,7 +50,7 @@ const MyApplications = () => {
   const deleteApplication = async (id) => {
     try {
       await axios
-        .delete(`http://localhost:4000/api/v1/application/delete/${id}`, {
+        .delete(`https://jobseekingapplication.onrender.com/api/v1/application/delete/${id}`, {
           withCredentials: true,
         })
         .then((res) => {
