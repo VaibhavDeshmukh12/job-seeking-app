@@ -12,7 +12,8 @@ This is a full-stack job seeking application developed using the MERN (MongoDB, 
 
 ## Image
 
-![Job](https://github.com/VaibhavDeshmukh12/job-seeking-app/assets/113431207/22ef808f-4eac-4184-8f05-518bf21f690e)
+https://github.com/VaibhavDeshmukh12/job-seeking-app/assets/113431207/d1208b46-357e-4bc6-ba60-3cfbc3db40f3
+
 
 ## Technologies Used
 
